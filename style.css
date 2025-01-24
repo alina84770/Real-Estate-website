@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    font-family:'roboto','sans-serif';
+}
+p{
+    font-family: 'quicksand','sans-serif';
+}
+/*====Navigation-Bar====*/
+nav.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+button.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/*===slider section===*/
+.carousel-item img{
+    height: 90vh;
+}
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.carousel-caption input{
+    width: 80%;
+    max-width: 20rem;
+}
+.carousel-caption .search  i{
+    font-size: 1.3rem;
+    position: relative;
+    right: 2.3rem;
+}
+.carousel-caption .search  i:hover{
+    color: green !important;
+}
+.search-btn{
+   position: relative;
+   right: 1rem;
+}
+.arrow{
+    font-size: 1rem;
+    font-weight:1rem;
+    border: 2px solid #f7f799;
+    border-radius: 50%;
+    padding: 0.3rem;
+    background: transparent;
+}
+
+/*Dark Background section */
+section.residance{
+    margin-top: -13%;
+}
+section.residance .residance-detail{
+    margin-top: 20%;
+}
+section.residance img{
+    width: 10rem;
+}
+
+/*services*/
+section#services p{
+    text-align: justify;
+}
+
+/*blog section*/
+section#blog{
+    margin-top: 6rem;
+}
+
+/* reviews section */
+div.carousel-item div.card{
+    width: 80%;
+    max-width: 800px;
+}
+
+div.carousel-item div.card img{
+    height: 250px;
+}
+
+/*===footer section===*/
+i.fa-brands{
+    font-size: 1.5rem;
+}
+
+@media(max-width:450px){
+    /*testimonial section */
+    div.carousel-item div.card img{
+        height: 190px;
+        width: 220px;
+    }
+    /* blog section */
+    section#blog button.article-btn{
+        display: none;
+    }
+    /*residance section*/
+    section.residance{
+        margin-top: -10.3rem;
+    }
+    section.residance .residance-detail{
+        margin-top: 10rem;
+    }
+    section.residance img{
+        width: 8rem;
+    }
+
+}
