@@ -1,4 +1,8 @@
 @media(max-width:450px){
+    /* slider*/
+    .carousel-item img{
+        height: 70vh;
+    }
     /*testimonial section */
     div.carousel-item div.card img{
         height: 190px;
